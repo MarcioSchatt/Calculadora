@@ -63,4 +63,4 @@ O código usa Tkinter para criar uma interface gráfica simples.
 
 ## Licença
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
+Este projeto está licenciado sob a [Licença MIT](LICENSE.txt).

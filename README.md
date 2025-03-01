@@ -1,6 +1,13 @@
 # Calculadora em Python com Tkinter
 
+## Descrição
+
 Este projeto é uma **calculadora simples** feita em Python utilizando a biblioteca Tkinter para a interface gráfica. Esta aplicação permite que o usuário realize operações matemáticas básicas como adição, subtração, multiplicação e divisão. Além de incluir uma funcionalidade para limpar a entrada e calcular resultados.
+
+## Técnologias Utilizadas
+
+- **Python**: Linguagem de programação usada para criar a lógica da calculadora.
+- **Tkinter**: Biblioteca padrão do Python para criar interfaces gráficas.
 
 ## Funcionalidades
 
@@ -9,41 +16,27 @@ Este projeto é uma **calculadora simples** feita em Python utilizando a bibliot
 - **Calculadora Interativa**: Permite interação tanto com os botões na interface gráfica quanto com a tecla Enter para calcular a expressão digitada.
 - **Tratamento de Erros**: Caso o usuário insira uma expressão inválida, a calculadora exibe uma mensagem de erro.
 
-## Técnologias Utilizadas
-
-- **Python**: Linguagem de programação usada para criar a lógica da calculadora.
-- **Tkinter**: Biblioteca padrão do Python para criar interfaces gráficas.
-
 ## Como Executar
 
 Para começar a usar a calculadora, siga os passos abaixo:
 
 - **Clone o Repositório**: Primeiro, clone o repositório para o seu computador usando o Git. No Terminal, execute o seguinte comando:
-
 ```
 git clone https://github.com/MarcioSchatt/Calculadora.git
 ```
-
 - **Instale o Tkinter**: O Tkinter é uma biblioteca padrão do Python para criar interfaces gráficas. Caso não o tenha instalado, precisa apenas rodar o seguinte comando para instalá-lo:
-
-No Windows ou Linux (geralmente já vem instalado):
-
+No ***Windows*** ou ***Linux*** (geralmente já vem instalado):
 ```
 pip install tk
 ```
-
 No ***macOS***, o Tkinter já deve estar incluído com a instalação do Python. Caso não esteja, use o seguinte comando:
-
 ```
 brew install python-tk
 ```
-
 - **Execute o Programa**: Após clonar o repositório e instalar o Tkinter, navegue até o diretório onde o repositório foi clonado e execute o seguinte comando para rodar a calculadora:
-
 ```
-python calculadora.py
+python main.py
 ```
-
 A janela da calculadora será aberta, e você poderá começar a usá-la.
 
 ## Como Funciona

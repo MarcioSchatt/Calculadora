@@ -21,10 +21,8 @@ Para começar a usar a calculadora, siga os passos abaixo:
 - **Clone o Repositório**: Primeiro, clone o repositório para o seu computador usando o Git. No Terminal, execute o seguinte comando:
 
 ```
-git clone https://github.com/seuusuario/nome-do-repositorio.git
+git clone https://github.com/MarcioSchatt/Calculadora.git
 ```
-
-Substitua ***seuusuario*** e ***nome-do-repositorio*** pelo seu **nome de usuário do GitHub** e pelo **nome do repositório**.
 
 - **Instale o Tkinter**: O Tkinter é uma biblioteca padrão do Python para criar interfaces gráficas. Caso não o tenha instalado, precisa apenas rodar o seguinte comando para instalá-lo:
 

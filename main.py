@@ -49,8 +49,8 @@ def criar_botoes(janela: tk.Tk, ent: tk.StringVar) -> None:
         quadro_linha = tk.Frame(quadro)
         quadro_linha.pack(expand=True, fill="both", pady=2)
         for texto in linha:
-            botao = tk.Button(quadro_linha, text=texto, font=(
-                "Arial", 18), width=5, height=2, command=lambda t=texto: on_click(t, ent))
+            botao = tk.Button(
+                quadro_linha, text=texto, font=("Arial", 18), width=5, height=2, command=lambda t=texto: on_click(t, ent))
             botao.pack(side="left", expand=True, fill="both", padx=2, pady=2)
 
 
@@ -63,12 +63,10 @@ def main() -> None:
     janela.geometry("400x400")
 
     entrada = tk.StringVar()
-    ent = tk.Entry(janela, textvariable=entrada, font=(
-        "Arial", 20), justify="right", bd=10, relief=tk.GROOVE)
+    ent = tk.Entry(
+        janela, textvariable=entrada, font=("Arial", 20), justify="right", bd=10, relief=tk.GROOVE)
     ent.pack(fill="both", padx=10, pady=10)
-
     ent.focus()
-
     ent.bind("<Return>", lambda event: on_enter(entrada))
 
     criar_botoes(janela, entrada)

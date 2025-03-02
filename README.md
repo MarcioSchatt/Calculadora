@@ -48,6 +48,10 @@ O código usa Tkinter para criar uma interface gráfica simples.
 - **Ação dos Botões**: A função ***on_click*** manipula os cliques nos botões. Para o botão de igual ***=***, é feito o cálculo da expressão, e em caso de erro, é exibida uma mensagem de erro. O botão ***C*** limpa a tela de entrada.
 - **Tecla Enter**: O pressionamento da tecla ***Enter*** é configurado para realizar o mesmo cálculo que o botão ***=***.
 
+## Layout da Tela
+
+![Calculadora](screenshot.png)
+
 ## Contribuições
 
 **Se você quiser contribuir para este projeto, fique à vontade para abrir issues ou enviar pull requests. Toda contribuição sempre será bem-vinda!**

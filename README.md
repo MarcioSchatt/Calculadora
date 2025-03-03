@@ -4,7 +4,7 @@
 
 Este projeto é uma **calculadora simples** feita em Python utilizando a biblioteca Tkinter para a interface gráfica. Esta aplicação permite que o usuário realize operações matemáticas básicas como adição, subtração, multiplicação e divisão. Além de incluir uma funcionalidade para limpar a entrada e calcular resultados.
 
-## Técnologias Utilizadas
+## Tecnologias Utilizadas
 
 - **Python**: Linguagem de programação usada para criar a lógica da calculadora.
 - **Tkinter**: Biblioteca padrão do Python para criar interfaces gráficas.
